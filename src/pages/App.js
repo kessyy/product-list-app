@@ -1,4 +1,3 @@
-// pages/App.js
 import React, { useState, useEffect } from 'react';
 import Filter from '../components/filter';
 import ProductList from '../components/product-list';
@@ -18,7 +17,6 @@ const App = () => {
     try {
       const timestamp = new Date().toISOString().split('T')[0].replace(/-/g, '');
       const authString = `md5("${PASSWORD}_${timestamp}")`;
-      console.log('password', authString)
 
       const authResponse = await fetch(API_BASE_URL, {
         method: 'POST',

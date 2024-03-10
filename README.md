@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Product List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project simply contains the list of products that are available from an API server. 
 
 ## Available Scripts
 
